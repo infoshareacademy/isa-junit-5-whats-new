@@ -16,7 +16,7 @@ public class LifecycleTest {
         this.secondDate = this.firstDate;
     }
 
-    @BeforeEach
+    @BeforeAll
     public void beforeEach() {
         assertEquals(firstDate, secondDate);
     }
